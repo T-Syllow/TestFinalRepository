@@ -1,12 +1,16 @@
 package testFinalRepository.objects;
 
 public class User {
-
-	
-	
-	public User (String username, String password) {
-		this.username = username;
-		this.password = password;
+  
+	public static String username;
+	public static String password;
+  
+  
+	public static boolean isEingabekorrekt(String name, String pwd) {
+		if(name.equals(username) && pwd.equals(password)) {
+			return true;
+		}
+		return false;
 	}
 
 	public String getUsername() {
