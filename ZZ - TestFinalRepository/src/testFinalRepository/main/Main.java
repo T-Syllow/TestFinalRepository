@@ -10,6 +10,7 @@ public class Main {
 		User user2 = new User("Dennis", "awsdkkk22");
 		System.out.println(user2.toString());
 		
+		User user3 = new User("Arndold", "SchwarzWeis22");
 
 	}
 
