@@ -5,6 +5,10 @@ public class User {
 	public static String username;
 	public static String password;
   
+	public User(String name, String pwd) {
+		this.username = name;
+		this.password = pwd;
+	}
   
 	public static boolean isEingabekorrekt(String name, String pwd) {
 		if(name.equals(username) && pwd.equals(password)) {
